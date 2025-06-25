@@ -1,0 +1,46 @@
+*{
+font-family: monospace;
+}
+
+body {
+  background-image: url("WMWEBDEV/images/blueprint_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(18, 18, 53);
+}
+
+p{
+    color: goldenrod;
+}
+
+.heading-color {
+    color: whitesmoke;
+}
+
+h1 {
+    color: gold;
+}
+
+#social-media {
+    color: whitesmoke;
+}
+
+#datetime {
+    color: silver;
+}
+
+a[href*= 'profile'] {
+    color: orange;
+}
+
+a:visited {
+    color: lightblue
+}
+
+a[href*= 'home'] {
+    color: orange;
+}
+
+a:hover {
+    color: gold;
+}
