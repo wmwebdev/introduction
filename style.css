@@ -1,6 +1,5 @@
 *{
 font-family: monospace;
-text-align: center;
 
 }
 
@@ -13,21 +12,50 @@ body {
   padding-top: 15px;
 }
 
-nav ul {
-    padding: 0;
-}
 
 p{
-    color: goldenrod;
+    color: rgb(225, 175, 50);
 }
 
-.heading-color {
-    color: whitesmoke;
+
+#title {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 30%
 }
 
 h1 {
     color: gold;
+    text-align: center;
 
+}
+
+h4 {
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+}
+
+h5 {
+    text-align: center;
+}
+
+section {
+display: block;
+text-align: left;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 12px;
+padding-right: 10px;
+width: 300px;
+height: 150px;
+border-radius: 30px;
+margin: auto;
+background: rgb(66, 122, 219); opacity: .8;
 }
 
 #social-media {
@@ -39,7 +67,7 @@ span {
 }
 
 #datetime {
-    color: silver;
+    color: gold;
 }
 
 a[href*= 'profile'] {
